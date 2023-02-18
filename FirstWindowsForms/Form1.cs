@@ -22,7 +22,7 @@ namespace FirstWindowsForms
             string database = "elever";
             //kolla rätt användarnamn och lösenord
             string user = "root";            
-            string pass = "EmmaWindows";       // kolla rätt lösen
+            string pass = "";       // kolla rätt lösen
 
             string connString  = $"SERVER={server}; DATABASE = {database}; UID={user}; PASSWORD={pass};";
 
